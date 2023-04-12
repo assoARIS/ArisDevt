@@ -3,11 +3,11 @@
 {% block headContent %}
     <title>ARIS - Accueil</title>
     <style type="text/css">
-        #nav1 a:nth-child(1) {
-        /* border-bottom: none; */
-        color: var(--indosuez-color);
-        font-weight: bold;
-        background-color: var(--wheat-color);
+        #nav1 a:nth-child(1)
+        { /* border-bottom: none; */
+          color: var(--indosuez-color);
+          font-weight: bold;
+          background-color: var(--wheat-color);
         }
     </style>
 {% endblock %}
@@ -33,28 +33,36 @@
     <br/><br/>
     Jean-Pierre Pampilli<br/>
     Président
-    <br/><br/>
+    <br/><br/><br/>
     <!---->
+    <div class="divFilInfos">
+        <div class="italic10R">03/03/2023</div>
+        <div class="infoVedette" onClick="moveInfoVedette();">
+            la prochaine Assemblée Générale de l'ARIS aura lieu le 21/04/2023 à 10h30<br/>
+            au Centre de Formation des Apprentis MEDERIC, Ecole Hôtelière<br/>
+            20 rue Médéric, 75017 Paris 
+        </div>
+        <br/>
+    </div>
+    <!--
+    <div class="divFilInfos">
+        <div class="italic10R">03/01/2023</div>
+        <div class="infoVedette" onClick="moveInfoVedette();">
+            notre Programme des Sorties Culturelles 2023 est paru<br/>
+        </div>
+        <div style="text-align:center"><a href="../static/doc/programmeSortiesCulturelles2023.pdf" target="_blank">Programme des Sorties Culturelles 2023</a></div>
+        <br/>
+    </div>
+
     <div class="divFilInfos">
         <div class="italic10R">05/12/2022</div>
-        <div id="infoVedette" onClick="moveInfoVedette();">
-            <br/>
+        <div class="infoVedette" onClick="moveInfoVedette();">
             notre Catalogue des Voyages 2023 est paru<br/>
-            <br/>
         </div>
-        <div style="text-align:center"><a href="/programsActivites">Catalogue des Voyages 2023</a></div>
+        <div style="text-align:center"><a href="../static/doc/catalogueVoyages2023.pdf" target="_blank">Catalogue des Voyages 2023</href=></div>
         <br/>
     </div>
-    <!---->
-    <div class="divFilInfos">
-        <div class="italic10R">01/12/2022</div>
-        <div id="infoVedette" onClick="moveInfoVedette();">
-            <br/>
-            le prochain Conseil d'Administration se tiendra le 12/01/2023<br/>
-            <br/>
-        </div>
-        <br/>
-    </div>
+    -->
     <!---->
     <div class="divFilInfos"></div>
     <!---->

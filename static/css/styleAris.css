@@ -193,6 +193,11 @@ ul {
   font-style: italic;
   font-size: 12px;
 }
+.italic12N{
+  font-style: italic;
+  font-size: 12px;
+  font-weight: normal;
+}
 .italic10R {
   font-style: italic;
   font-size: 10px;
@@ -203,27 +208,26 @@ ul {
   color: var(--grey-color);
 }
 
-#infoVedette {
-  background-color: var(--indosuez-color);
-  color: var(--wheat-color);
+.infoVedette {
+  color: var(--indosuez-color);
   text-align: center;
-  font-size: 16px;
-  /* transform: translateX(0); */
+  font-size: 14px;
+  font-weight: bold;
+  /* transform: translateX(0);
   opacity: 1;
   transform: scaleY(1);
   transition: opacity 300ms, transform 100ms;
+  */
 }
-#infoVedette a {
-  color: var(--wheat-color);
+.infoVedette a {
+  color: var(--indosuez-color);
 }
-#infoVedette a:visited {
-  color: var(--wheat-color);
+.infoVedette a:visited {
+  color: var(--indosuez-color);
 }
-/*
-#infoVedette:hover {
+.infoVedette:hover {
   transform: scaleY(1.3);
 }
-*/
 
 
 /* Tableaux */

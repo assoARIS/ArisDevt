@@ -62,12 +62,14 @@ function gotoAGO()
 
 function moveInfoVedette()
 {   if(window.location.pathname == "/index/")
-    {   setTimeout(function()
-        {   document.getElementById("infoVedette").style.opacity = 0;
-        } , 0);
-        setTimeout(function()
-        {   document.getElementById("infoVedette").style.opacity = 1;
-        } , 500);
+    {   for(let i=0; i<2; i++)
+        {   setTimeout(function()
+            {   document.getElementById("infoVedette").style.opacity = 0;
+            } , 1000);
+            setTimeout(function()
+            {   document.getElementById("infoVedette").style.opacity = 1;
+            } , 2000);
+        }
         /*
         setTimeout(function()
         {   document.getElementById("infoVedette").style.transform = "scaleY(1.5)";
