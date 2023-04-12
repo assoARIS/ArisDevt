@@ -37,7 +37,7 @@ entrypoints==0.3
 fasteners==0.14.1
 filelock==3.6.0
 flake8==4.0.1
-future==0.18.2
+future==0.18.3
 google-api-python-client==1.7.11
 google-auth==1.5.1
 google-auth-httplib2==0.0.3
