@@ -43,5 +43,6 @@ urlpatterns = [ path('', views.index, name='index')
               , path('spnConseilAdm/', views.spnConseilAdm, name='spnConseilAdm')
               , path('listAGO/', views.listAGO, name='listAGO')
               , path('carouselParis/', views.carouselParis, name='carouselParis')
+              , path('locations/', views.locations, name='locations')
               , path('admin/', admin.site.urls),
               ]

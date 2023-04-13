@@ -148,3 +148,7 @@ def carouselParis(request):
     print("\t- carouselParis.html -")
     return render(request,'carouselParis.html',{'carouselParis':imgParis})
 #
+def locations(request):
+    print("\t- locations.html -")
+    return render(request,'locations.html')
+#

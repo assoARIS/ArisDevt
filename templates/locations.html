@@ -1,0 +1,60 @@
+{% extends 'generic.html' %}
+
+{% block headContent %}
+    <title>ARIS - Locations</title>
+    <style type="text/css">
+        #nav1 a {
+        border-bottom: none;
+        }
+        #nav1 a:nth-child(4) {
+        /* border-bottom: none; */
+        color: var(--indosuez-color);
+        font-weight: bold;
+        background-color: var(--wheat-color);
+        }
+        #nav2 a:nth-child(3) {
+        border-bottom: none;
+        color: var(--indosuez-color);
+        font-weight: bold;
+        background-color: var(--wheat-color);
+        }
+    </style>
+{% endblock %}
+
+{% block nav2Content %}
+    <a href="/programsActivites">Programmes</a>
+    <a href="/comptesRendus">Comptes Rendus</a>
+    <a href="/locations">Locations</a>
+{% endblock %}
+
+{% block sxnContent %}
+    Nous vous informons que nous avons conclu deux contrats de partenariat avec "NEMEA résidences vacances" et "ODALYS vacances".<br/>
+    Ces contrats permettent aux adhérents  ARIS de bénéficier de réductions sur des locations.<br/>
+    Les locations devront être réservées directement auprès de ces organismes, soit sur leur site internet, soit par téléphone, en communiquant un code PARTENAIRE.
+    <br/><br/>
+    Pour réserver auprès de NEMEA:<br/>
+    - par site internet: <a href="http://www.nemea.fr" target="blank"> www.nemea.fr </a><br/>
+    - par téléphone: 05 57 26 00 30.<br/>
+    - code partenaire: ASSOARIS
+    <br/><br/>
+    Voir l'affiche et le contrat NEMEA en cliquant sur les liens ci-dessous:<br/>
+    - <a href="../static/loc/NEMEA_Affiche-2023_04.pdf" target="_blank"> NEMEA_Affiche-2023_04.pdf </a><br/>
+    - <a href="../static/loc/NEMEA_contrat_ARIS-2023_04.pdf" target="_blank"> NEMEA_contrat_ARIS-2023_04.pdf </a><br/>
+    <br/><br/>
+    Pour réserver auprès de ODALYS:<br/>
+    - par site internet: <a href="http://www.odalys-vacances.com" target="blank"> www.odalys-vacances.com </a><br/>
+    - par téléphone: 04 42 25 99 95.<br/>
+    - code partenaire: 92ARIS-SD
+    <br/><br/>
+    Voir l'affiche et le contrat ODALYS en cliquant sur les liens ci-dessous:<br/>
+    - <a href="../static/loc/ODALYS_Affiche-2023_04.pdf" target="_blank"> ODALYS_Affiche-2023_04.pdf </a><br/>
+    - <a href="../static/loc/ODALYS_contrat_ARIS-2023_04.pdf" target="_blank"> ODALYS_contrat_ARIS-2023_04.pdf </a>
+    <br/><br/>
+    Nous vous invitons à découvrir leurs offres promotionnelles en consultant leurs sites.<br/>
+    Vous pourrez également prendre connaissance de tous les détails 
+    (modalités de paiement, conditions d'annulations, assurances, frais, heures d'arrivée et de départs, etc.).
+    <br><br><br/>
+    Bons séjours.<br/>
+    Jean-Pierre Pampilli
+    <br><br>
+{% endblock %}
